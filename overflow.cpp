@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
 	// std::cout<<sizeof(x)<<std::endl;
 	std::cout<<"the value of x is: "<<x<<std::endl;
 	x = x+1;
-	//don't add x+1 as it will be evaluated as rvalue 
+	//don't add x+1 as it will be  evaluated as rvalue 
 	std::cout<<"adding 1 to it :"<<x<<std::endl<<"magic !!"<<std::endl;
 	return 0;
 }
